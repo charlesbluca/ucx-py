@@ -1,5 +1,6 @@
 name: ucx_dev
 channels:
+- quasiben
 - rapidsai
 - nvidia
 - conda-forge
@@ -17,5 +18,5 @@ dependencies:
 - pip
 - psutil
 - libhwloc
-- ucx
+- ucx=1.8.0dev+nonuma
 - ucx-py
